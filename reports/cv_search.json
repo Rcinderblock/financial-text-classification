@@ -1,0 +1,120 @@
+{
+  "baseline": {
+    "best_parameters": {},
+    "fold_scores": [
+      0.6923633801903013,
+      0.7732987729301546,
+      0.7402816242630136
+    ],
+    "candidates": [
+      {
+        "parameters": {},
+        "mean_macro_f1": 0.7353145924611565
+      }
+    ]
+  },
+  "word_trigrams": {
+    "best_parameters": {},
+    "fold_scores": [
+      0.696451540635989,
+      0.7616980433000459,
+      0.7300270469722553
+    ],
+    "candidates": [
+      {
+        "parameters": {},
+        "mean_macro_f1": 0.7293922103027634
+      }
+    ]
+  },
+  "balanced_logreg": {
+    "best_parameters": {
+      "classifier__C": 10.0
+    },
+    "fold_scores": [
+      0.7852266712475894,
+      0.8418362808499955,
+      0.8287177675732957
+    ],
+    "candidates": [
+      {
+        "parameters": {
+          "classifier__C": 0.1
+        },
+        "mean_macro_f1": 0.7444183271650796
+      },
+      {
+        "parameters": {
+          "classifier__C": 1.0
+        },
+        "mean_macro_f1": 0.7998871610923352
+      },
+      {
+        "parameters": {
+          "classifier__C": 10.0
+        },
+        "mean_macro_f1": 0.8185935732236268
+      }
+    ]
+  },
+  "linear_svc": {
+    "best_parameters": {
+      "classifier__C": 1.0
+    },
+    "fold_scores": [
+      0.7838113756168051,
+      0.8436936936936936,
+      0.8431969808271633
+    ],
+    "candidates": [
+      {
+        "parameters": {
+          "classifier__C": 0.5
+        },
+        "mean_macro_f1": 0.8149458921107445
+      },
+      {
+        "parameters": {
+          "classifier__C": 1.0
+        },
+        "mean_macro_f1": 0.8235673500458874
+      },
+      {
+        "parameters": {
+          "classifier__C": 2.0
+        },
+        "mean_macro_f1": 0.8226279641521548
+      }
+    ]
+  },
+  "word_char_svc": {
+    "best_parameters": {
+      "classifier__C": 2.0
+    },
+    "fold_scores": [
+      0.8095072785282093,
+      0.8493217897003896,
+      0.8483133774543258
+    ],
+    "candidates": [
+      {
+        "parameters": {
+          "classifier__C": 0.5
+        },
+        "mean_macro_f1": 0.8267757646162778
+      },
+      {
+        "parameters": {
+          "classifier__C": 1.0
+        },
+        "mean_macro_f1": 0.8310878478205574
+      },
+      {
+        "parameters": {
+          "classifier__C": 2.0
+        },
+        "mean_macro_f1": 0.8357141485609749
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "raw_shape": [
+    2264,
+    2
+  ],
+  "raw_dtypes": {
+    "text": "str",
+    "sentiment": "str"
+  },
+  "raw_missing": {
+    "text": 0,
+    "sentiment": 0
+  },
+  "cleaning": {
+    "input_rows": 2264,
+    "missing_or_nontext_rows": 0,
+    "empty_after_cleaning": 0,
+    "conflicting_rows": 0,
+    "duplicate_rows": 5,
+    "output_rows": 2259,
+    "class_counts": {
+      "neutral": 1386,
+      "positive": 570,
+      "negative": 303
+    }
+  },
+  "lengths": {
+    "text_length": {
+      "count": 2259.0,
+      "mean": 121.88003541389996,
+      "std": 56.03206918020447,
+      "min": 9.0,
+      "25%": 79.0,
+      "50%": 111.0,
+      "75%": 157.0,
+      "max": 315.0
+    },
+    "word_count": {
+      "count": 2259.0,
+      "mean": 22.433820274457723,
+      "std": 10.12125021884575,
+      "min": 2.0,
+      "25%": 15.0,
+      "50%": 21.0,
+      "75%": 28.0,
+      "max": 81.0
+    }
+  },
+  "examples": {
+    "negative": "Jan. 6 -- Ford is struggling in the face of slowing truck and SUV sales and a surfeit of up-to-date , gotta-have cars .",
+    "neutral": "According to Gran , the company has no plans to move all production to Russia , although that is where the company is growing .",
+    "positive": "For the last quarter of 2010 , Componenta 's net sales doubled to EUR131m from EUR76m for the same period a year earlier , while it moved to a zero pre-tax profit from a pre-tax loss of EUR7m ."
+  }
+}

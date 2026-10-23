@@ -1,0 +1,32 @@
+[
+  {
+    "text": "The company's operating profit increased significantly this year.",
+    "label": 2,
+    "sentiment": "positive",
+    "expected_sentiment": "positive"
+  },
+  {
+    "text": "The company reported a substantial loss and declining revenue.",
+    "label": 0,
+    "sentiment": "negative",
+    "expected_sentiment": "negative"
+  },
+  {
+    "text": "The company is headquartered in Helsinki, Finland.",
+    "label": 1,
+    "sentiment": "neutral",
+    "expected_sentiment": "neutral"
+  },
+  {
+    "text": "Sales grew strongly and net profit rose to a record level.",
+    "label": 2,
+    "sentiment": "positive",
+    "expected_sentiment": "positive"
+  },
+  {
+    "text": "The company will publish its annual report on Thursday.",
+    "label": 1,
+    "sentiment": "neutral",
+    "expected_sentiment": "neutral"
+  }
+]

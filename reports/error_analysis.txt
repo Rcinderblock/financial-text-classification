@@ -1,0 +1,38 @@
+Анализ ошибок на отложенной тестовой выборке
+Ошибок: 30 из 452.
+Матрица: строки — истинный класс, столбцы — предсказанный.
+[[ 53   0   8]
+ [  2 268   7]
+ [  2  11 101]]
+
+Ошибки по направлениям:
+negative → positive: 8
+  row_id=2219: The company said that sales in the three months to the end of March slid to EUR86 .4 m US$ 113.4 m from EUR91 .2 m last year .
+  row_id=371: Finnish power supply solutions and systems provider Efore Oyj said its net loss widened to 3.2 mln euro $ 4.2 mln for the first quarter of fiscal 2006-2007 ending October 31 , 2007 from 900,000 euro $ 1.2 mln for the same period of fiscal 2005-06 .
+neutral → negative: 2
+  row_id=1593: After non-recurring items of EUR 177mn , profit amounted to EUR 20mn .
+  row_id=1658: In the first quarter of 2008 , Sacanfil 's net sales totalled EUR 50.0 mn and its operating profit EUR 4.7 mn .
+neutral → positive: 7
+  row_id=1130: ` Nordic infrastructure construction is one of our strategic growth areas .
+  row_id=1276: Its market share is 6 percent according to AC Nielsen 's 2008 data .
+positive → negative: 2
+  row_id=345: Unit costs for flight operations fell by 6.4 percent .
+  row_id=454: Finnish airline Finnair has won a deal with the UK public sector to be the official airline for flights from London Heathrow to Osaka in Japan , as well as flights between Manchester in the UK and Helsinki in Finland .
+positive → neutral: 11
+  row_id=423: BasWare 's CEO Ilkka Sihvo comments in conjunction with the Interim Report : `` As a whole , BasWare succeeded well in the second quarter of 2007 .
+  row_id=447: The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .
+
+Доля ошибок по истинному классу:
+negative: 13.1% (61 примеров)
+neutral: 3.2% (277 примеров)
+positive: 11.4% (114 примеров)
+
+Проверка групп (описание, а не доказательство причин):
+С числами: 6.3% ошибок, n=301
+Без чисел: 7.3% ошибок, n=151
+
+Гипотезы для следующего эксперимента:
+Проверить признаки финансовых сравнений: прибыль/убыток, рост/снижение.
+Разобрать влияние упоминаний нескольких периодов и смешанной тональности.
+Попробовать контекстную модель, сравнивая её на новом отложенном наборе.
+Дальнейшие изменения нельзя выбирать по уже просмотренному тесту.

@@ -1,0 +1,7 @@
+[
+  {"text": "The company's operating profit increased significantly this year.", "expected_sentiment": "positive"},
+  {"text": "The company reported a substantial loss and declining revenue.", "expected_sentiment": "negative"},
+  {"text": "The company is headquartered in Helsinki, Finland.", "expected_sentiment": "neutral"},
+  {"text": "Sales grew strongly and net profit rose to a record level.", "expected_sentiment": "positive"},
+  {"text": "The company will publish its annual report on Thursday.", "expected_sentiment": "neutral"}
+]

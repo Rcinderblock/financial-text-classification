@@ -1,0 +1,1 @@
+Baseline test Macro F1: 0.827308

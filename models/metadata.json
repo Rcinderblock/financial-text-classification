@@ -1,0 +1,48 @@
+{
+  "selected_method": "word_char_svc",
+  "labels": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "python": "3.12.12",
+  "sklearn": "1.9.1",
+  "dataset_sha256": "441d761ab8fdf64634c5def6d66f6b0fb5488fb51d0efbae661e2aa6b19f02a0",
+  "training_rows": 1807,
+  "test_rows": 452,
+  "cv": {
+    "best_parameters": {
+      "classifier__C": 2.0
+    },
+    "fold_scores": [
+      0.8095072785282093,
+      0.8493217897003896,
+      0.8483133774543258
+    ],
+    "candidates": [
+      {
+        "parameters": {
+          "classifier__C": 0.5
+        },
+        "mean_macro_f1": 0.8267757646162778
+      },
+      {
+        "parameters": {
+          "classifier__C": 1.0
+        },
+        "mean_macro_f1": 0.8310878478205574
+      },
+      {
+        "parameters": {
+          "classifier__C": 2.0
+        },
+        "mean_macro_f1": 0.8357141485609749
+      }
+    ]
+  },
+  "test_macro_f1": 0.9135315770964659,
+  "artifacts": {
+    "best_model.joblib": "9377f9f2867ad6574d8b4c15c4c26a04824d08db55255fbb34525f6ed1a9cfb9",
+    "vectorizer.joblib": "d2bd5c431760ea42e097d005f9167b56500716394786e84939203edc4a3f9f2e"
+  }
+}
